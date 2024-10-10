@@ -54,12 +54,12 @@
     left:20px;
 }
 #registerpage{
-    height:90vh;
+    height:86vh;
     font-family: 'Poppins', sans-serif;
     background-image: url('bgr.jpeg');
     background-size: cover;
     position:absolute;
-    width:100%;
+    width:99%;
 }
 
 .container{
@@ -93,7 +93,7 @@
 }
 
 form .user-details .input-box{
-    margin-bottom:15px;
+    margin-bottom:20px;
     width:250px;
 }
 .user-details .input-box .details{
