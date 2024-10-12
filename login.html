@@ -74,5 +74,17 @@
             <?php echo date("Y"); ?>. All rights reserved.</p>
       
       </div>
+      <script type="text/javascript">
+        // JavaScript function for login
+        const loginForm = document.querySelector('form');
+        
+        loginForm.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+            
+            alert('Logged in successfully'); // Display alert message
+            
+            window.location.href = 'index.html'; // Redirect to index.html
+        });
+    </script>
     <script type="text/JavaScript" src="main.js"></script>
 </body>

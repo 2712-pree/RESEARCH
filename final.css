@@ -16,8 +16,10 @@
     margin-left:-20px;
     margin-right:-20px;
     height:60px;
+    top: 0;
     font-family: 'Playfair Display', serif;
 }
+
 .logo{
     width:130px;
     height:60px;
@@ -327,17 +329,22 @@ img{
     color: white;
     transform: rotateY(180deg);
   }
-.Upcoming-Conferences{
-       color:white;
-        
-        margin:7%;
-        margin-top:3%;
-        display:flex;
-        flex-wrap:wrap;
-        justify-content: space-between;
-        margin-bottom: 7%;
-    
+  .Upcoming-Conferences {
+    color: white;
+    margin: 7%;
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 7%;
 }
+
+.upcoming:hover {
+    transform: scale(1.03); 
+    transition: transform 0.3s ease-in-out;
+    max-width: 100%; 
+}
+
 .up-heading{
     font-size:35px;
     margin-top:-3%;
